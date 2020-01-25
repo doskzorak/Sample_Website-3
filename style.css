@@ -1,0 +1,140 @@
+body {
+    background-color: #B9F2FF;
+    font-family: sans-serif, Arial, Helvetica;
+    color: purple;
+}
+
+h1 {
+    color: Yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ol {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul {
+    background-color: tomato;
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 12px;
+    width: 75%;
+}
+
+p {
+    color: yellow;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: peachpuff;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 10px;
+}
+
+img:hover {
+    border: 2px dashed Navy;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+.topBox {
+    background-color: grey;
+    color: #FFFF00;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.someSpacing {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bidDivider, .midDivider, .centerDivider,
+.bottomDivider, .endDivider {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #FFA500;
+    padding-bottom: 10px;
+}
+
+#myCoolText {
+    color: #FFFF00;
+    border: 2px ridge #CCFFFF;
+    padding: 15px;
+    text-align: justify;
+}
+
+#frontPage {
+    background: #48D1CC;
+    background: linear-gradient(#000000, #C2C5CC);
+    animation: slide 10s infinite linear forwards;
+}
+
+#ovalEarth {
+    width: 50%;
+    border-radius: 100%;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+#usHotSpots {
+    border-radius: 5%;
+    width: 350px;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes grow {
+    from {
+        width: 300px;
+    }
+    to {
+        width: 350px;
+    }
+}
+
+@keyframes rainbowGlow {
+    0% {
+        color: #FFD723;
+    }
+    50% {
+        color: #663399;
+    }
+    100% {
+        color: #FFD7323;
+    }
+}
+
+@keyframes slide {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 600vw;
+    }
+}
