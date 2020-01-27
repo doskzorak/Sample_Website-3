@@ -94,8 +94,8 @@ iframe {
 }
 
 #ovalEarth {
-    width: 50%;
-    border-radius: 100%;
+    width: 75%;
+    border-radius: 12%;
     animation-name: grow;
     animation-duration: 2s;
     animation-iteration-count: 1;
