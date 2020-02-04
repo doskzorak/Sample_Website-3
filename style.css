@@ -80,6 +80,10 @@ iframe {
     padding-bottom: 10px;
 }
 
+#normal {
+    color: black;
+}
+
 #myCoolText {
     color: #FFFF00;
     border: 2px ridge #CCFFFF;
