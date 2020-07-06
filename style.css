@@ -15,21 +15,26 @@ h2 {
 }
 
 .ol {
-    color: blue;
+    color: lightgrey;
     font-family: 'Times New Roman', Times, serif;
 }
 
+nav {
+    text-align: center;
+}
+
 nav ul {
-    background-color: tomato;
     border-style: solid;
-    border-color: red;
+    border-color: gray;
     border-width: 3px;
     border-radius: 10px;
     padding: 12px;
-    width: 75%;
+    width: auto;
 }
 
 p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
     color: yellow;
 }
 
@@ -38,10 +43,13 @@ nav ul li {
     display: inline;
     margin-right: 10px;
     margin-left: 10px;
-    color: peachpuff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
 }
 
 nav ul li a {
+    color: lightgoldenrodyellow;
     text-decoration: none;
 }
 
@@ -98,7 +106,7 @@ iframe {
 }
 
 #ovalEarth {
-    width: 75%;
+    width: 50%;
     border-radius: 12%;
     animation-name: grow;
     animation-duration: 2s;
@@ -142,3 +150,46 @@ iframe {
         background-position-x: 600vw;
     }
 }
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    #ovalEarth {
+        width: 100%;
+    }
+
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+    #ovalEarth {
+        width: 100%
+    }
+
+    #usHotSpots {
+        width: 68%
+    }
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    #ovalEarth {
+        width: 100%
+    }
+
+    #usHotSpots {
+        width: 68%
+    }
+
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+
+
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+
+
+ }
