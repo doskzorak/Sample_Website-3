@@ -106,11 +106,12 @@ iframe {
 }
 
 #ovalEarth {
-    width: 50%;
-    border-radius: 12%;
+    width: 100;
+    border-radius: 7%;
     animation-name: grow;
     animation-duration: 2s;
     animation-iteration-count: 1;
+    align-self: center;
 }
 
 #usHotSpots {
@@ -154,7 +155,7 @@ iframe {
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
     #ovalEarth {
-        width: 100%;
+        width: 88%;
     }
 
  }
@@ -162,22 +163,22 @@ iframe {
  /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (min-width: 600px) {
     #ovalEarth {
-        width: 100%
+        width: 88%;
     }
 
     #usHotSpots {
-        width: 68%
+        width: 68%;
     }
  }
  
  /* Medium devices (landscape tablets, 768px and up) */
  @media only screen and (min-width: 768px) {
     #ovalEarth {
-        width: 100%
+        width: 88%;
     }
 
     #usHotSpots {
-        width: 68%
+        width: 68%;
     }
 
  }
