@@ -1,6 +1,6 @@
 body {
-    background-color: #B9F2FF;
-    font-family: sans-serif, Arial, Helvetica;
+    background-color: #FFA500;
+    font-family: 'Pro Sans', sans-serif, Arial, Helvetica;
     color: purple;
 }
 
@@ -88,6 +88,11 @@ iframe {
     padding-bottom: 10px;
 }
 
+.timer {
+    font-family: 'Pro Sans', sans-serif;
+    color: lightgoldenrodyellow;
+}
+
 #normal {
     color: black;
 }
@@ -103,6 +108,11 @@ iframe {
     background: #48D1CC;
     background: linear-gradient(#000000, #C2C5CC);
     animation: slide 10s infinite linear forwards;
+}
+
+#resources ul li {
+    font-family: 'Pro Sans', sans-serif;
+    color: #FFD723
 }
 
 #ovalEarth {
